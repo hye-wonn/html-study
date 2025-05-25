@@ -79,10 +79,3 @@
     <option value="jp">일본</option>
 </select>
 ```
-
-> 💡 활용 팁
->
-> -   유효성 검사 속성 → 사용자 경험 향상
-> -   `label`, `for` 속성 → 접근성 향상 (스크린 리더 사용자 등 고려)
-> -   `autocomplete = "off"` 속성 → 자동 완성 방지
-> -   HTTPS & CSRF 방지 토큰 → 안전한 데이터 처리
