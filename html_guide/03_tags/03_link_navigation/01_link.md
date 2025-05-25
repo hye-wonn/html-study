@@ -38,7 +38,7 @@
 <a href="https://example.com" target="_blank" rel="noopener">Example 웹사이트 방문</a>
 ```
 
-> 💡 활용 팁 및 주의 사항
+> 💡 활용 팁
 >
-> `target = "_blank"` → `rel = "noopener"` 또는 `rel = "noreferrer"`와 함께 설정
-> `href = "#section-id"` 형태 → 페이지 내 특정 위치(아이디)에 바로 이동 가능 (긴 문서 탐색 편리)
+> -   `target = "_blank"` → `rel = "noopener"` 또는 `rel = "noreferrer"`와 함께 설정
+> -   `href = "#section-id"` 형태 → 페이지 내 특정 위치(아이디)에 바로 이동 가능 (긴 문서 탐색 편리)
