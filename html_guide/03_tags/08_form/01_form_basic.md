@@ -8,7 +8,7 @@
 ## 1-2. 주요 속성
 
 -   `action`: 데이터를 전송할 서버 URL 지정
--   `method`: 전송 방식 (GET 또는 POST)
+-   `method`: 전송 방식 (`GET` 또는 `POST`)
 -   `enctype`: 전송 시 데이터 인코딩(암호화) 방식 지정 (`method = "post"`인 경우에만 사용 가능)
     -   application/x-www-form-urlencoded (기본값, 모두 인코딩)
     -   multipart/form-data (파일이나 이미지 전송, 모두 인코딩 X)
