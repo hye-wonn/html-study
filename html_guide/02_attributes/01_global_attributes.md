@@ -23,26 +23,25 @@
 ## 1-2. `id`
 
 -   요소에 고유 식별자 부여
--   JS → 요소 조작, CSS → `#id명`으로 스타일 지정
 
 ```html
 <!-- 하나의 HTML 문서 안에서 중복되면 안됨 -->
 <button id="submit_button">버튼</button>
 ```
 
+```js
+// JS → 요소 조작
+document.getElementById('submit_button').addEventListener('click', () => {
+    alert('버튼이 클릭됨!');
+});
+```
+
 ```css
-/* `#id명`으로 스타일 지정 */
+/* CSS → `#id명`으로 스타일 지정 */
 #submit_button {
     background-color: blue;
     color: white;
 }
-```
-
-```js
-// 요소 조작
-document.getElementById('submit_button').addEventListener('click', () => {
-    alert('버튼이 클릭됨!');
-});
 ```
 
 ## 1-3. `style`
@@ -83,7 +82,7 @@ document.getElementById('submit_button').addEventListener('click', () => {
 
 ## 1-7. `dir`
 
--   텍스트 방향 설정 (ltr / rtl)
+-   텍스트 방향 설정 (`ltr` / `rtl`)
 
 ```html
 <p dir="rtl">텍스트</p>

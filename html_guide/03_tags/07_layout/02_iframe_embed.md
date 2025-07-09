@@ -48,7 +48,7 @@
 -   `<embed>`: 단순 삽입
 -   `<object>`: 고급 설정 가능
 
-## 1-2-2. `<embed>` 태그
+### 1-2-2. `<embed>` 태그
 
 -   `src`: 포함할 파일 경로 지정
 -   `type`: MIME (미디어) 타입 지정 (e.g. `application/pdf`)
@@ -58,7 +58,7 @@
 <embed src="example.pdf" type="application/pdf" width="600" height="400" />
 ```
 
-## 1-2-3. `<object>` 태그
+### 1-2-3. `<object>` 태그
 
 -   `data`: 포함할 파일 경로 지정
 -   `type`: MIME (미디어) 타입 지정
